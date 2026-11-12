@@ -1,0 +1,14 @@
+category,item,specification,qty,estimated_unit_cny,notes
+vision,top camera,monochrome USB global-shutter 5 MP preferred,1,300-700,quote required; lock exposure
+vision,side camera,monochrome USB camera 2 MP or better,1,200-500,quote required
+optics,low-distortion lens,matching camera mount and 100-200 mm working distance,2,150-500,quote required
+illumination,top backlight,uniform white diffuse backlight 120 x 120 mm,1,80-250,include diffuser
+illumination,side background,matte high-contrast panel,1,30-100,rigidly mounted
+laser,line laser,650 nm class 1 or explicitly low power with shroud,1,30-120,safety label required
+mechanics,camera/rig frame,3D printed or aluminium profile within 50 cm cube,1,150-400,stiffness and thermal stability
+mechanics,measurement stage,opaque matte datum stage,1,50-150,top camera views object against backlight
+motion,optional turntable,low-speed controllable stage for blind-slot sampling,1,80-300,optional after base path passes
+control,MCU/controller,ESP32 or STM32 for laser/backlight/trigger,1,20-80,generic hardware
+calibration,ChArUco board,printed on flat rigid panel,1,20-80,keep away from heat/moisture
+calibration,known calibration block,50 mm length / 30 mm height / 20 mm step,1,50-200,machined or independently measured
+power,wiring and adapters,generic power and shielded cables,1,80-200,PC/display adapter excluded by rules

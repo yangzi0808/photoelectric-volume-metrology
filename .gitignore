@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.venv/
+tmp/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Organizer-provided materials are not redistributed with the source repository.
+赛题及规则/
+
+# Keep only the canonical, documented validation artifacts.
+output/*
+!output/README.md
+!output/image_demo/
+!output/image_demo/**
+!output/benchmark_combined/
+!output/benchmark_combined/**
+!output/parallax_benchmark/
+!output/parallax_benchmark/**

@@ -1,0 +1,632 @@
+{
+  "generated_at": "2026-11-10T21:14:42.299239+08:00",
+  "status": "calibrated_image_simulation",
+  "hardware_validated": false,
+  "measurements": [
+    {
+      "name": "Realistic L-block",
+      "shape": "l_block",
+      "truth_dimensions": {
+        "a_mm": 82.0,
+        "b_mm": 71.0,
+        "h_mm": 58.0,
+        "u_mm": 31.0,
+        "v_mm": 26.0
+      },
+      "truth_cm3": 290.928,
+      "runs": [
+        {
+          "shape": "l_block",
+          "mode": "image_auto",
+          "dimensions": {
+            "a_mm": 82.070982,
+            "b_mm": 71.066252,
+            "h_mm": 57.955855,
+            "u_mm": 31.010454,
+            "v_mm": 26.002528
+          },
+          "volume_mm3": 291293.480072,
+          "volume_cm3": 291.29348,
+          "sigma_mm3": 551.699752,
+          "relative_sigma": 0.00189397,
+          "confidence": 0.871418,
+          "issues": [],
+          "elapsed_ms": 447.3321,
+          "diagnostics": {
+            "top": {
+              "classified_shape": "l_block",
+              "classification_confidence": 0.94,
+              "outer_contour_points": 2275,
+              "hole_contour_points": 0,
+              "mask_area_px": 280262,
+              "outer_rect_fill": 0.8583285420613448,
+              "hole_rect_fill": null,
+              "outer_circle_relative_rms": 0.13914630380670007,
+              "hole_circle_relative_rms": null,
+              "rect_center_mm": [
+                -0.032611846923828125,
+                -0.03438568115234375
+              ],
+              "rect_size_mm": [
+                71.06453704833984,
+                82.06497192382812
+              ],
+              "rect_angle_deg": -89.99899291992188,
+              "polygon_vertices_px": 6,
+              "approx_factor": 0.003,
+              "missing_corner": "top_right",
+              "concave_vertex_mm": [
+                10.27943906446375,
+                -9.41398977752089
+              ],
+              "corner_distance_ratio": [
+                0.00223,
+                0.24085,
+                0.00228,
+                0.00208
+              ],
+              "outer_extent_mm": [
+                82.07098192272059,
+                71.06625235015093
+              ],
+              "subpixel_outer_edge_counts": {
+                "left": 90,
+                "right": 58,
+                "top": 57,
+                "bottom": 90
+              },
+              "subpixel_notch_vertical_count": 90,
+              "subpixel_notch_horizontal_count": 90
+            },
+            "side": {
+              "mask_area_px": 511447,
+              "contour_points": 2896,
+              "top_slope": -8.099873394783314e-07,
+              "bottom_slope": 1.248883004813394e-05,
+              "top_line_rms_mm": 0.0017245204777212122,
+              "bottom_line_rms_mm": 0.0017438234155857893,
+              "subpixel_edge_refinement": true,
+              "top_edge_samples": 160,
+              "bottom_edge_samples": 160
+            },
+            "top_metric_mm_per_px": 0.1339194908806753,
+            "side_metric_mm_per_px": 0.09643254538033862,
+            "classifier_confidence": 0.94,
+            "height_compensated_top_plane": false,
+            "effective_top_homography_px_to_mm": [
+              [
+                0.13391567322639283,
+                -0.001938112468132894,
+                -84.97850083757724
+              ],
+              [
+                0.002023487896795783,
+                0.13389402344492377,
+                -67.51587134436748
+              ],
+              [
+                -2.5144866304129403e-07,
+                -8.1522303581992e-07,
+                1.0005645297348396
+              ]
+            ],
+            "top_roi_px": null,
+            "side_roi_px": null,
+            "dimension_sigma_mm": {
+              "a_mm": 0.077762,
+              "b_mm": 0.070486,
+              "h_mm": 0.055225,
+              "u_mm": 0.048492,
+              "v_mm": 0.04657
+            }
+          }
+        },
+        {
+          "shape": "l_block",
+          "mode": "image_auto",
+          "dimensions": {
+            "a_mm": 82.06457,
+            "b_mm": 71.065026,
+            "h_mm": 57.956341,
+            "u_mm": 30.997221,
+            "v_mm": 26.00194
+          },
+          "volume_mm3": 291284.680954,
+          "volume_cm3": 291.284681,
+          "sigma_mm3": 559.279022,
+          "relative_sigma": 0.00192004,
+          "confidence": 0.870509,
+          "issues": [],
+          "elapsed_ms": 451.2995,
+          "diagnostics": {
+            "top": {
+              "classified_shape": "l_block",
+              "classification_confidence": 0.94,
+              "outer_contour_points": 2275,
+              "hole_contour_points": 0,
+              "mask_area_px": 280709,
+              "outer_rect_fill": 0.8583224515116079,
+              "hole_rect_fill": null,
+              "outer_circle_relative_rms": 0.14007236525628872,
+              "hole_circle_relative_rms": null,
+              "rect_center_mm": [
+                -0.03226470947265625,
+                -0.034130096435546875
+              ],
+              "rect_size_mm": [
+                82.06437683105469,
+                71.06546783447266
+              ],
+              "rect_angle_deg": -8.316809544339776e-05,
+              "polygon_vertices_px": 6,
+              "approx_factor": 0.003,
+              "missing_corner": "bottom_left",
+              "concave_vertex_mm": [
+                -10.221645172811405,
+                9.44136328764657
+              ],
+              "corner_distance_ratio": [
+                0.00263,
+                0.0032,
+                0.00221,
+                0.24167
+              ],
+              "outer_extent_mm": [
+                82.06456967749693,
+                71.06502625151225
+              ],
+              "subpixel_outer_edge_counts": {
+                "left": 58,
+                "right": 90,
+                "top": 90,
+                "bottom": 57
+              },
+              "subpixel_notch_vertical_count": 90,
+              "subpixel_notch_horizontal_count": 90
+            },
+            "side": {
+              "mask_area_px": 371196,
+              "contour_points": 2466,
+              "top_slope": -8.698892455979296e-06,
+              "bottom_slope": 1.8634830379398205e-06,
+              "top_line_rms_mm": 0.0016713808604587035,
+              "bottom_line_rms_mm": 0.0014909856101280768,
+              "subpixel_edge_refinement": true,
+              "top_edge_samples": 160,
+              "bottom_edge_samples": 160
+            },
+            "top_metric_mm_per_px": 0.13380945629375615,
+            "side_metric_mm_per_px": 0.11319628555479051,
+            "classifier_confidence": 0.94,
+            "height_compensated_top_plane": false,
+            "effective_top_homography_px_to_mm": [
+              [
+                0.13381255554236865,
+                -0.00266229992460213,
+                -82.52605183978321
+              ],
+              [
+                0.0025253544597016214,
+                0.13375611331909665,
+                -70.33370159970998
+              ],
+              [
+                8.691672127512715e-07,
+                9.01840680382403e-07,
+                0.9989915265528798
+              ]
+            ],
+            "top_roi_px": null,
+            "side_roi_px": null,
+            "dimension_sigma_mm": {
+              "a_mm": 0.077739,
+              "b_mm": 0.070465,
+              "h_mm": 0.058224,
+              "u_mm": 0.048458,
+              "v_mm": 0.046539
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Realistic cylinder",
+      "shape": "cylinder",
+      "truth_dimensions": {
+        "D_mm": 84.0,
+        "d_mm": 28.0,
+        "H_mm": 72.0
+      },
+      "truth_cm3": 354.6732442196733,
+      "runs": [
+        {
+          "shape": "cylinder",
+          "mode": "image_auto",
+          "dimensions": {
+            "D_mm": 84.026359,
+            "d_mm": 27.971078,
+            "H_mm": 71.970183
+          },
+          "volume_mm3": 354868.223442,
+          "volume_cm3": 354.868223,
+          "sigma_mm3": 809.771518,
+          "relative_sigma": 0.00228189,
+          "confidence": 0.892551,
+          "issues": [],
+          "elapsed_ms": 449.109,
+          "diagnostics": {
+            "top": {
+              "classified_shape": "cylinder",
+              "classification_confidence": 0.98,
+              "outer_contour_points": 2036,
+              "hole_contour_points": 681,
+              "mask_area_px": 362872,
+              "outer_rect_fill": 0.785534378111489,
+              "hole_rect_fill": 0.7875018261283343,
+              "outer_circle_relative_rms": 0.00042399731654268146,
+              "hole_circle_relative_rms": 0.0012038826467875336,
+              "outer_circle_center_mm": [
+                -0.02584433738385265,
+                -0.03233900487266391
+              ],
+              "inner_circle_center_mm": [
+                -0.028664775214100144,
+                -0.029973605227636063
+              ],
+              "outer_circle_rms_mm": 0.01781347542608357,
+              "inner_circle_rms_mm": 0.016836947682283488,
+              "center_offset_mm": 0.003681030431141403
+            },
+            "side": {
+              "mask_area_px": 465780,
+              "contour_points": 2730,
+              "top_slope": -2.430181903276827e-06,
+              "bottom_slope": 4.6623633270909596e-06,
+              "top_line_rms_mm": 0.0019475464115669655,
+              "bottom_line_rms_mm": 0.002009603851230352,
+              "subpixel_edge_refinement": true,
+              "top_edge_samples": 160,
+              "bottom_edge_samples": 160
+            },
+            "top_metric_mm_per_px": 0.1165781433733432,
+            "side_metric_mm_per_px": 0.1138768747688639,
+            "classifier_confidence": 0.9778534058517043,
+            "height_compensated_top_plane": false,
+            "effective_top_homography_px_to_mm": [
+              [
+                0.11646193665411532,
+                -0.0010152883691716946,
+                -76.1165089619334
+              ],
+              [
+                0.0010566984243670745,
+                0.11668525399088474,
+                -53.677293359785544
+              ],
+              [
+                4.921827126581427e-07,
+                -8.742107151320861e-07,
+                1.0000733207607417
+              ]
+            ],
+            "top_roi_px": null,
+            "side_roi_px": null,
+            "dimension_sigma_mm": {
+              "D_mm": 0.076382,
+              "d_mm": 0.042618,
+              "H_mm": 0.067604
+            }
+          }
+        },
+        {
+          "shape": "cylinder",
+          "mode": "image_auto",
+          "dimensions": {
+            "D_mm": 84.030663,
+            "d_mm": 27.971575,
+            "H_mm": 71.95338
+          },
+          "volume_mm3": 354824.672866,
+          "volume_cm3": 354.824673,
+          "sigma_mm3": 802.997466,
+          "relative_sigma": 0.00226308,
+          "confidence": 0.893228,
+          "issues": [],
+          "elapsed_ms": 435.0198,
+          "diagnostics": {
+            "top": {
+              "classified_shape": "cylinder",
+              "classification_confidence": 0.98,
+              "outer_contour_points": 2064,
+              "hole_contour_points": 691,
+              "mask_area_px": 373060,
+              "outer_rect_fill": 0.7858782569272731,
+              "hole_rect_fill": 0.7864335591136573,
+              "outer_circle_relative_rms": 0.0003955432059518207,
+              "hole_circle_relative_rms": 0.0012391983689093156,
+              "outer_circle_center_mm": [
+                -0.027342447539126437,
+                -0.031816609829902635
+              ],
+              "inner_circle_center_mm": [
+                -0.031007323184217804,
+                -0.03205217166106025
+              ],
+              "outer_circle_rms_mm": 0.01661887893516492,
+              "inner_circle_rms_mm": 0.01733116523074985,
+              "center_offset_mm": 0.0036724382731752204
+            },
+            "side": {
+              "mask_area_px": 608642,
+              "contour_points": 3122,
+              "top_slope": 5.40136455296176e-06,
+              "bottom_slope": -1.5236494077372214e-06,
+              "top_line_rms_mm": 0.0004904307867033591,
+              "bottom_line_rms_mm": 0.0006353991858305061,
+              "subpixel_edge_refinement": true,
+              "top_edge_samples": 160,
+              "bottom_edge_samples": 160
+            },
+            "top_metric_mm_per_px": 0.11497216726424037,
+            "side_metric_mm_per_px": 0.09965747345686082,
+            "classifier_confidence": 0.9778585260569908,
+            "height_compensated_top_plane": false,
+            "effective_top_homography_px_to_mm": [
+              [
+                0.1150135699601148,
+                0.0011103680562872544,
+                -70.17059204417504
+              ],
+              [
+                -0.0011187933952561489,
+                0.11491997837796347,
+                -52.59337519424664
+              ],
+              [
+                -4.850748148216481e-07,
+                4.884498681348102e-07,
+                1.0000673566949434
+              ]
+            ],
+            "top_roi_px": null,
+            "side_roi_px": null,
+            "dimension_sigma_mm": {
+              "D_mm": 0.076149,
+              "d_mm": 0.042194,
+              "H_mm": 0.065382
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Realistic blind slot",
+      "shape": "blind_slot",
+      "truth_dimensions": {
+        "a_mm": 88.0,
+        "b_mm": 76.0,
+        "h_mm": 61.0,
+        "u_mm": 46.0,
+        "v_mm": 38.0,
+        "t_mm": 19.0
+      },
+      "truth_cm3": 374.756,
+      "runs": [
+        {
+          "shape": "blind_slot",
+          "mode": "image_auto",
+          "dimensions": {
+            "a_mm": 88.08629,
+            "b_mm": 76.049901,
+            "h_mm": 61.003158,
+            "u_mm": 45.909584,
+            "v_mm": 37.961957,
+            "t_mm": 18.999173
+          },
+          "volume_mm3": 375545.233255,
+          "volume_cm3": 375.545233,
+          "sigma_mm3": 691.819693,
+          "relative_sigma": 0.00184217,
+          "confidence": 0.820738,
+          "issues": [
+            {
+              "code": "SLOT_DEPTH_GEOMETRY",
+              "severity": "warning",
+              "message": "The measured slot depth exceeds half of the short opening side."
+            }
+          ],
+          "elapsed_ms": 470.7281,
+          "diagnostics": {
+            "top": {
+              "classified_shape": "blind_slot",
+              "classification_confidence": 0.95,
+              "outer_contour_points": 2277,
+              "hole_contour_points": 1164,
+              "mask_area_px": 240296,
+              "outer_rect_fill": 0.9965529810646392,
+              "hole_rect_fill": 0.9996650725945562,
+              "outer_circle_relative_rms": 0.11989180950164643,
+              "hole_circle_relative_rms": 0.01660835667355964,
+              "rect_center_mm": [
+                -0.0261688232421875,
+                -0.040264129638671875
+              ],
+              "rect_size_mm": [
+                88.07071685791016,
+                76.07091522216797
+              ],
+              "rect_angle_deg": -0.016763390973210335,
+              "subpixel_edge_counts": {
+                "outer_left": 90,
+                "outer_right": 90,
+                "outer_top": 90,
+                "outer_bottom": 90,
+                "inner_left": 90,
+                "inner_right": 90,
+                "inner_top": 90,
+                "inner_bottom": 90
+              },
+              "slot_circle_rms_mm": 0.40060516045380334
+            },
+            "side": {
+              "mask_area_px": 465188,
+              "contour_points": 2766,
+              "top_slope": -4.006288917133241e-06,
+              "bottom_slope": 1.4652172264005475e-06,
+              "top_line_rms_mm": 0.0008876174101874056,
+              "bottom_line_rms_mm": 0.0010903549128064287,
+              "subpixel_edge_refinement": true,
+              "top_edge_samples": 160,
+              "bottom_edge_samples": 160
+            },
+            "top_metric_mm_per_px": 0.14363136084319045,
+            "side_metric_mm_per_px": 0.10740005303310358,
+            "classifier_confidence": 0.95,
+            "height_compensated_top_plane": false,
+            "effective_top_homography_px_to_mm": [
+              [
+                0.14346707466089412,
+                -0.00021345733331034922,
+                -89.63596536914083
+              ],
+              [
+                0.0002145245342815229,
+                0.1437955159718261,
+                -69.96822684553625
+              ],
+              [
+                9.223898824862135e-07,
+                -7.27685564578099e-07,
+                0.9997764380766871
+              ]
+            ],
+            "top_roi_px": null,
+            "side_roi_px": null,
+            "laser_depth": {
+              "top_level_mm": 0.002656744879363455,
+              "floor_level_mm": -18.99651597978182,
+              "sample_sigma_mm": 0.013172829217222331,
+              "inlier_count": 139,
+              "rejected_count": 6
+            },
+            "dimension_sigma_mm": {
+              "a_mm": 0.083444,
+              "b_mm": 0.075488,
+              "h_mm": 0.059146,
+              "u_mm": 0.057844,
+              "v_mm": 0.05403,
+              "t_mm": 0.032765
+            }
+          }
+        },
+        {
+          "shape": "blind_slot",
+          "mode": "image_auto",
+          "dimensions": {
+            "a_mm": 88.063163,
+            "b_mm": 76.076364,
+            "h_mm": 60.932277,
+            "u_mm": 45.91934,
+            "v_mm": 37.935008,
+            "t_mm": 19.0155
+          },
+          "volume_mm3": 375093.270239,
+          "volume_cm3": 375.09327,
+          "sigma_mm3": 702.142397,
+          "relative_sigma": 0.00187191,
+          "confidence": 0.819763,
+          "issues": [
+            {
+              "code": "SLOT_DEPTH_GEOMETRY",
+              "severity": "warning",
+              "message": "The measured slot depth exceeds half of the short opening side."
+            }
+          ],
+          "elapsed_ms": 474.3463,
+          "diagnostics": {
+            "top": {
+              "classified_shape": "blind_slot",
+              "classification_confidence": 0.95,
+              "outer_contour_points": 2279,
+              "hole_contour_points": 1165,
+              "mask_area_px": 240772,
+              "outer_rect_fill": 0.9964193230824122,
+              "hole_rect_fill": 0.9931699513544154,
+              "outer_circle_relative_rms": 0.11978854311416208,
+              "hole_circle_relative_rms": 0.016358939155336455,
+              "rect_center_mm": [
+                -0.035892486572265625,
+                -0.03615570068359375
+              ],
+              "rect_size_mm": [
+                76.0709457397461,
+                88.07117462158203
+              ],
+              "rect_angle_deg": -89.9996109008789,
+              "subpixel_edge_counts": {
+                "outer_left": 90,
+                "outer_right": 90,
+                "outer_top": 90,
+                "outer_bottom": 90,
+                "inner_left": 90,
+                "inner_right": 90,
+                "inner_top": 90,
+                "inner_bottom": 90
+              },
+              "slot_circle_rms_mm": 0.3950378772513679
+            },
+            "side": {
+              "mask_area_px": 355628,
+              "contour_points": 2418,
+              "top_slope": -1.5510442308750638e-06,
+              "bottom_slope": -3.4639493780867834e-06,
+              "top_line_rms_mm": 0.0005100077948367275,
+              "bottom_line_rms_mm": 0.0005816350745332774,
+              "subpixel_edge_refinement": true,
+              "top_edge_samples": 160,
+              "bottom_edge_samples": 160
+            },
+            "top_metric_mm_per_px": 0.1434858708186866,
+            "side_metric_mm_per_px": 0.12284721738977872,
+            "classifier_confidence": 0.95,
+            "height_compensated_top_plane": false,
+            "effective_top_homography_px_to_mm": [
+              [
+                0.1434875488440213,
+                -0.0007201971187799557,
+                -90.47508443438113
+              ],
+              [
+                0.0007492804115777382,
+                0.14348043200168628,
+                -72.15147961978585
+              ],
+              [
+                6.66218745529471e-07,
+                -8.607025455156403e-07,
+                1.0000082228208138
+              ]
+            ],
+            "top_roi_px": null,
+            "side_roi_px": null,
+            "laser_depth": {
+              "top_level_mm": 0.0019066534324344358,
+              "floor_level_mm": -19.013593185975363,
+              "sample_sigma_mm": 0.01389691265231235,
+              "inlier_count": 139,
+              "rejected_count": 6
+            },
+            "dimension_sigma_mm": {
+              "a_mm": 0.083404,
+              "b_mm": 0.075479,
+              "h_mm": 0.061944,
+              "u_mm": 0.057814,
+              "v_mm": 0.053981,
+              "t_mm": 0.033062
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

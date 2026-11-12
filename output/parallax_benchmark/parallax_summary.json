@@ -1,0 +1,10 @@
+{
+  "sample_count": 15,
+  "baseline_mean_error": 0.7446341659999998,
+  "baseline_p95_error": 1.2305462679999999,
+  "baseline_max_error": 1.33665763,
+  "corrected_mean_error": 0.002513532,
+  "corrected_p95_error": 0.004308118,
+  "corrected_max_error": 0.00457703,
+  "corrected_pass_5pct_rate": 1.0
+}

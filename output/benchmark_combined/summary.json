@@ -1,0 +1,10 @@
+{
+  "sample_count": 252,
+  "mean_abs_error": 0.0014836434523809526,
+  "p95_abs_error": 0.003446024,
+  "max_abs_error": 0.00504786,
+  "pass_5pct_rate": 1.0,
+  "shape_accuracy": 1.0,
+  "two_sigma_coverage": 0.9722222222222222,
+  "failure_count": 0
+}
